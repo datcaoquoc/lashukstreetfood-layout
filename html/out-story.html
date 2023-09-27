@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=FontName&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <section>
+        <!-- header -->
+      <div class="grid grid-cols-12 lg:max-w-screen-lg mx-auto pt-[22px]">
+        <div class="md:col-span-5 col-span-10 flex items-center">
+          <span class="fontMarzo font-semibold leading-[55px] md:text-[55px] text-[32px] text-[#5693C4]"
+            >LaShuk <br />
+            Street Food
+            </span
+          >
+        </div>
+
+        <div class="col-span-2 flex items-center md:!hidden">
+          <div class="z-[1000] h-auto border-[1px] border-solid border-[#b0b0b0] flex justify-center rounded-[3px] mr-[5px]">
+            <a href="#" class="menu-toggle" id="menu-toggle"><span></span></a>
+          </div>
+        </div>
+
+        <!-- menu mobile -->
+        <div id="menu-mb" class="z-1 hidden fixed overflow: hidden; top-0 bottom-0 left-[0] right-[0] bg-[#ffffff]">
+
+              <div class="w-full flex items-end h-[30vh] bg-[#E5E5E5]">
+                <div class="mx-[auto] mb-[30px]">
+                  <img class="w-[40px] h-[40px] mb-[20px] mx-auto" src="../img/ic_user.svg" alt="">
+                <div class="text-[#7d9174] mx-auto text-[25px]">login</div>
+                </div>
+            </div>
+
+            <div>
+                <ul class="text-center text-[25px] text-[#696969]">
+                  <li class="p-[15px]"><a href="home.html">Home</a></li>
+                  <li class="p-[15px]"><a href="out-story.html">Our Story</a> </li>
+                  <li class="p-[15px]"><a href="menu.html">Menu</a></li>
+                  <li class="p-[15px]"><a href="press.html">Press</a></li>
+                  <li class="p-[15px]"><a href="find-us.html">Find Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-span-7 hidden md:flex content-between flex-wrap content-between">
+          <div class="flex w-full justify-end">
+            <div class="flex items-center">
+                <img class="w-[26px] h-[26px] mr-[15px]" src="../img/ic_user.svg" alt="">
+                <span class="text-[#7d9174]">login</span>
+            </div>
+          </div>
+          <div class="flex w-full justify-end h-[fit-content]">
+            <ul class="flex w-full justify-between h-[fit-content]">
+              <li class="py-[10px] h-[fit-content]"><a href="home.html" class="text-[20px] font-bold text-[#000000] hover:text-[#000000] [transition:all_0.3s]">Home</a></li>
+              <li class="py-[10px] h-[fit-content]"><a href="out-story.html" class="text-[20px] font-bold text-[#6193c4] hover:text-[#000000] [transition:all_0.3s] " >Out Story</a></li>
+              <li class="py-[10px] h-[fit-content]"><a href="menu.html" class="text-[20px] font-bold text-[#6193c4] hover:text-[#000000] [transition:all_0.3s] " >Menu</a></li>
+              <li class="py-[10px] h-[fit-content]"><a href="press.html" class="text-[20px] font-bold text-[#6193c4] hover:text-[#000000] [transition:all_0.3s] " >Press</a></li>
+              <li class="py-[10px] h-[fit-content]"><a href="find-us.html" class="text-[20px] font-bold text-[#6193c4] hover:text-[#000000] [transition:all_0.3s] " >Find Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- content -->
+      <div class="lg:max-w-screen-lg mx-auto p-[20px] md:p-[0] pt-[22px]">
+            <img class="w-[300px] h-[auto] mx-auto mb-[20px] md:float-left pr-[7px]" src="../img/Yosi6.webp" alt="">
+            <div>
+                <p class="text-[16px] text-[#656260] font-normal ">Yosi Alhadif, Israeli born and classically trained at Chicago’s French Pastry School. Yosi grew up in a house in Tel Aviv where the kitchen was its heart and the delicious fragrances of his mother’s recipes could be smelled throughout the neighborhood. He loved the vibrant Israeli street culture, where food reflected the experiences of people from all over the world. These memories and flavors define his food today.</p>
+            <p class="text-[16px] text-[#656260] font-normal mt-[20px]">A degree from Chicago’s French Pastry School led Yosi to positions in notable local restaurants such as Mindy’s Hot Chocolate, Somerset (Boka Group) and Princi. He also gained valuable experience in Israeli cuisine during an internship under world-renowned Israeli Chef Michael Solomonov at Zahav restaurant in Philadelphia.</p>
+            <p class="text-[16px] text-[#656260] font-normal mt-[20px]">Yosi decided to make it his mission to bring his Israeli food experiences to the people of Chicago. He worked for months to create his own hummus blend that would match the smell, taste and feel of the smooth, silky hummus that he loved in Israel.</p>
+            <p class="text-[16px] text-[#656260] font-normal">After much recipe testing, Yosi discovered the magical combination he was looking for.</p>
+            <p class="text-[16px] text-[#656260] font-normal mt-[20px]">Summer of 2018, LaShuk Street Food opened in Chicago’s Wicker Park and Logan Square Farmers’ Markets. People loved the hummus, the falafel and fresh baked pita and realized that what they had experienced so far in the US was nothing like the real thing.</p>
+            <p class="text-[16px] text-[#656260] font-normal mt-[20px]">May of 2019 Yosi opened his first location as part of Politan Row's food hall in West Loop. He believed that offering a selection of Israeli street food, prepared with authentic style and spices, will find a strong following in a city like Chicago that celebrates great ethnic cooking. </p>
+            </div>
+        </div>
+
+      <!-- footer -->
+      <section class="!bg-[#000000] mt-[20px]">
+        <p class="uppercase md:text-[50px] text-[26px] text-center text-[#FFFFFF] font-thin">Contact us for catering!</p>
+        <div class="max-w-[600px] text-[#DDDDDD] mt-[10px] mx-auto grid grid-cols-12 items-center gap-[10px]">
+            <div class="col-span-12 md:col-span-4 !order-2 md:!order-1">
+                <ul class="text-[#FFFFFF] text-[18px] font-semibold">
+                  <li>Find Us: </li>
+                  <li>Revival Food Hall</li>
+                  <li>125 S. Clark St</li>
+                  <li class="underline">224-554-9791</li>
+                </ul>
+            </div>
+            <div class="col-span-12 md:col-span-4 !order-1 md:!order-2">
+                <img class="w-[160px] mx-auto" src="../img/logo-1.webp" alt="">
+            </div>
+            <div class="col-span-12 mt-[20px] md:mt-auto md:col-span-4 order-3 md:order-3">
+                <ul class="text-[#FFFFFF] text-[18px] font-semibold">
+                  <li>Get in Touch: </li>
+                  <li class="underline">Yosi@Lashukstreetfood.com</li>
+                </ul>
+                <div class="flex mt-[30px]">
+                    <img class="w-[40px] h-[40px]" src="../img/ic-fb.webp" alt="">
+                    <img class="w-[40px] h-[40px]" src="../img/ic-ins.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-[600px] mt-[30px] mx-[auto] text-[#FFFFFF] text-[14px] font-semibold">
+          Photo Credit: <span class="underline">Matt Haas, Kim Yo and Tim Maccoy</span>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="../js/menu.js"></script>
+  <script>
+    // Set the Scroll Page speed
+// using https://github.com/gblazex/smoothscroll-for-websites
+// SmoothScroll({ stepSize: 40 })
+
+// Add some parallax
+// ====================
+const heroImage = document.querySelector(".hero-image");
+const textEl = document.querySelector(".parallax");
+ 
+// Create the translate3d function
+function setTranslate(xPos, yPos, el) {
+ el.style.transform = "translate3d(" + xPos + ", " + yPos + "px, 0)";
+}
+
+// Add event Listenter to Window
+window.addEventListener("DOMContentLoaded", scrollLoop, false);
+
+// Define position variables
+let xScrollPosition;
+let yScrollPosition;
+
+// Scroll function
+function scrollLoop() {
+  xScrollPosition = window.pageXOffset;
+  yScrollPosition = window.pageYOffset;
+ 
+  // We only change the Y variable
+  setTranslate(0, yScrollPosition * -0.2, heroImage);
+  setTranslate(0, yScrollPosition * 0.1, textEl);
+ 
+  // We use requestAnimationFrame to target the GPU instead of the CPU
+  requestAnimationFrame(scrollLoop);
+}
+  </script>
+</html>
